@@ -31,8 +31,8 @@ int main()
             dealer.resetDeck();
         }
     }
-    std::cout << "money End: " << money
-              << " - Ratio win: " << haveWin / 1000000.0f * 100.0f << "%"
+    std::cout << "Balance: " << money
+              << " - Win ratio: " << haveWin / 1000000.0f * 100.0f << "%"
               << std::endl;
     return 0;
 }
